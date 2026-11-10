@@ -1,0 +1,33 @@
+# Dataset files (do not commit the transaction dataset)
+*.csv
+!results/model_comparison/model_metrics.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+!.env.example
